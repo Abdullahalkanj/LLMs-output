@@ -1,0 +1,8 @@
+| Check | Item                             | What to Check                                                                            | Why                                                                               |
+| :---: | -------------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
+|   ✔️  | Algorithm Phases                 | Clear identification of the two main phases: 1) build max-heap, 2) sort-down extraction. | Captures the overall structure and flow of heap-sort.                             |
+|   ✔️  | Method Responsibilities          | Roles of `leftChild`, `percDown`, and `heapsort` without diving into every line.         | Ensures the explainer knows what each piece contributes to the sort.              |
+|   ✔️  | Percolate-Down Mechanics         | How `percDown` chooses the larger child and moves the hole down until order is restored. | Covers the core heap-maintenance step that underpins both phases.                 |
+|   ✔️  | Generics & Comparison            | Use of `<AnyType extends Comparable<? super AnyType>>` and `compareTo` for ordering.     | Verifies understanding of Java generics and how ordering is actually implemented. |
+|   ✔️  | Complexity (Time & Space)        | Time complexity O(n log n) and in-place space complexity O(1).                           | Highlights performance guarantees and memory usage.                               |
+|   ✔️  | In-Place Behavior & Side Effects | That the sort happens within the input array and no extra arrays are used.               | Confirms awareness of side effects and space trade-offs.                          |
