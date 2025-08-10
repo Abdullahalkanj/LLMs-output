@@ -1,0 +1,22 @@
+{
+  "name": "version1",
+  "version": "1.0.0",
+  "main": "highScore.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^5.2.1",
+    "jsdom": "^26.1.0",
+    "mocha": "^11.7.1",
+    "node-fetch": "^3.3.2",
+    "sinon": "^21.0.0"
+  }
+}

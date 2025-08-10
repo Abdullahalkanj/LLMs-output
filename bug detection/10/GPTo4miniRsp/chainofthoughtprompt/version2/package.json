@@ -1,0 +1,22 @@
+{
+  "name": "version2",
+  "version": "1.0.0",
+  "main": "highScore.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^5.2.1",
+    "jsdom": "^26.1.0",
+    "mocha": "^11.7.1",
+    "node-fetch": "^3.3.2",
+    "sinon": "^21.0.0"
+  }
+}
