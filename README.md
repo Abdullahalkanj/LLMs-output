@@ -107,5 +107,5 @@ Spring 2025
 
 ---
 
-## 📂 Suggested Repository Structure
+
 
